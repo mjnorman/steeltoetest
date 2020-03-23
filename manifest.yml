@@ -7,4 +7,5 @@ applications:
   stack: cflinuxfs3
   services:
   - my-proxy
-  
+  env:
+    ASPNETCORE_ENVIRONMENT: Development

@@ -6,6 +6,10 @@ namespace steeltoetest.Options
     {
         public SquidProxyServiceOption() { }
 
+        public string Instance_name { get; set; }
+        public string Label { get; set; }
+        public string Name { get; set; }
+        public string Plan { get; set; }
         public SquidProxyCredentials Credentials { get; set; }
     }
 

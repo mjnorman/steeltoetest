@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -24,7 +25,7 @@ namespace steeltoetest.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.data = _squidOptions.Value;
+            Console.WriteLine($"Retrieved these Squid Proxy Options: {JsonSerializer.Serialize(_squidOptions)}");
             return View();
         }
 
