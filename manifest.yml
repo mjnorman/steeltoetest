@@ -1,0 +1,10 @@
+applications:
+- name: steeltoe 
+  memory: 256MB
+  instances: 1
+  buildpacks:
+  - https://github.com/cloudfoundry/dotnet-core-buildpack.git
+  stack: cflinuxfs3
+  services:
+  - my-proxy
+  

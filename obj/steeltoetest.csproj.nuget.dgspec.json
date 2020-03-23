@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mnorma001/code/iis/steeltoetest/steeltoetest.csproj": {}
+  },
+  "projects": {
+    "/Users/mnorma001/code/iis/steeltoetest/steeltoetest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mnorma001/code/iis/steeltoetest/steeltoetest.csproj",
+        "projectName": "steeltoetest",
+        "projectPath": "/Users/mnorma001/code/iis/steeltoetest/steeltoetest.csproj",
+        "packagesPath": "/Users/mnorma001/.nuget/packages/",
+        "outputPath": "/Users/mnorma001/code/iis/steeltoetest/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mnorma001/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Steeltoe.Extensions.Configuration.CloudFoundryCore": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
